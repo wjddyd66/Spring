@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="dev">
+
+	<select id="selectDataAll" resultType="dto">
+		select
+		jikwon_no,jikwon_name,buser_name,DATE_FORMAT(jikwon_ibsail,'%Y') as
+		year from jikwon,buser where buser_no=buser_num order by jikwon_no;
+	</select>
+
+	<select id="selectDataCount" resultType="string">
+		select count(*) as count
+		from jikwon;
+	</select>
+
+	<select id="selectDataEx1" resultType="map">
+		select
+		buser_name,count(*)
+		as sum from jikwon,buser where buser_no=buser_num
+		group by buser_num;
+	</select>
+
+	<select id="selectDataEx2" resultType="map">
+		select buser_name,
+		jikwon_name,max(jikwon_pay) as pay from jikwon,buser where
+		buser_no=buser_num group by buser_num;
+	</select>
+
+</mapper>
