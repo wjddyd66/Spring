@@ -1,1 +1,9 @@
-Spring 연습 Code를 올려두는 공간입니다. 질문있으시면 wjddyd66@naver.com으로 연락주세요
+### Spring Category
+
+1. Annotation & AOP (AOP)
+2. MyBatis (MyBatis)
+3. 요청방식 (Params)
+4. XML, JSON, Ajax (Json,Ajax & XML)
+
+**각코드에 대한 자세한 내용: <a href=""><https://wjddyd66.github.io/category/Spring></a>**  
+연락처: wjddyd66@naver.com  
