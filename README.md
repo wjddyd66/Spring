@@ -5,5 +5,5 @@
 3. 요청방식 (Params)
 4. XML, JSON, Ajax (Json,Ajax & XML)
 
-**각코드에 대한 자세한 내용: <a href=""><https://wjddyd66.github.io/category/Spring></a>**  
+**각코드에 대한 자세한 내용: <https://wjddyd66.github.io/category/Spring>**  
 연락처: wjddyd66@naver.com  
